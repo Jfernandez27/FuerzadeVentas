@@ -10,7 +10,7 @@ Sistema Automatizado para la Fuerza de Ventas de B.E.G.
 
 ## Authors
 
-* **Jesús Fernandez** - *Initial work* - [jfernandez27](https://github.com/jfernandez27)
+* **Jesús Fernandez** - [jfernandez27](https://github.com/jfernandez27)
 
 ## License
 
