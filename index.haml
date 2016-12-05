@@ -1,0 +1,41 @@
+!!!5
+%html{class:"no-js",lang:"es"}
+	%head
+		%meta{charset:"utf-8"}
+		%title B.E.G. Fuerza de Ventas
+		%meta{name:"description", content:"Sistema Automatizado para la Fuerza de Ventas de B.E.G."}
+		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"css/bootstrap.css"}
+		%link{rel:"stylesheet", href:"https://fonts.googleapis.com/css?family=Oswald"}
+		%link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"}
+		%link{rel:"stylesheet", href:"css/style.css"}
+		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
+		%script{src:"js/vendor/modernizr-2.8.3.min.js"}
+	%body
+		="<!--[if lt IE 9]>"
+		%p{class:"browserupgrade"}
+			Estás usando un navegador
+			%strong desactualizado.
+			Por favor
+			%a{href:"http://browsehappy.com/"}
+				actualiza tu navegador
+			para una mejor experiencia
+		="<![endif]-->"
+		.video-container
+			%video{autoplay:true, loop:true,width:"1280",height:"720",poster:"videos/images/yellow-cars.jpg"}
+				%source{src:"videos/mp4/yellow-cars.mp4",typ:"video/mp4"}
+				%source{src:"videos/mp4/yellow-cars.webm",typ:"video/webm"}
+		.row.full-height.middle-xs.center-xs.relative.up
+			.col-xs-12
+				.box.white-text
+					%img{src:"imgs/beg.png", width:"20%"}
+					%h1.oswald.titulo.no-margin B.E.G. Online - Fuerza de Ventas
+					%p#is-open Abierto Ahora
+			%nav.fixed.top.right.navigation.white-text#navigation
+				%ul.list-inline
+					%li Inicio
+					%li Archivos
+					%li Pedidos
+					%li Cobranza
+					%li Perfil
+					%li Ayuda
