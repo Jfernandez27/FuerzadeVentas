@@ -30,12 +30,30 @@
 				.box.white-text
 					%img{src:"imgs/beg.png", width:"20%"}
 					%h1.oswald.titulo.no-margin B.E.G. Online - Fuerza de Ventas
-					%p#is-open Abierto Ahora
+					%p#is-open 
+						%i.glyphicon.glyphicon-time
+						Abierto Ahora
 			%nav.fixed.top.right.navigation.white-text#navigation
+				-menu = ["Inicio", "Archivos", "Pedidos", "Cobranzas", "Perfil", "Contacto"]
 				%ul.list-inline
-					%li Inicio
-					%li Archivos
-					%li Pedidos
-					%li Cobranza
-					%li Perfil
-					%li Ayuda
+					-menu.each do |item|
+						%li
+							%a{}= item
+			.absolute.white-text.black-back.large-padding.bottom.full-width#description
+				.row.middle-xs.center-xs
+					.col-xs-7.col-sm-6.white-text.medio
+						Herramientas para la Fuerza de Ventas de B.E.G.
+					.col-xs.hidden
+						.box
+							%nav.text-right.navigation
+								%ul.list-inline
+									-menu.each do |item|
+										%li
+											%a{}= item
+		.full-height
+
+
+		%script{src:"http://code.jquery.com/jquery-3.1.1.min.js",integrity:"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=",crossorigin:"anonymous"}
+		%script
+			window.jQuery || document.write("<script src='/js/vendor/jquery-3.1.1.min.js'><\/script>")
+		%script{src:"js/main.js"}

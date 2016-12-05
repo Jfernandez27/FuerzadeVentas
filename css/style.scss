@@ -119,6 +119,17 @@ textarea {
     li{
         @extend .medio;
         padding: 5px 10px;
+        transition: all 0.4s;
+        &:hover{
+            background-color:rgba(0,0,0,0.5);
+        }
+        a{
+            color:white;
+            cursor:pointer;
+            &:hover{
+                text-decoration:none;
+            }
+        }
     }
 }
 
@@ -152,8 +163,14 @@ textarea {
 .white-text{
     color:white;
 }
+.black-back{
+    background-color:#222;
+}
 .oswald{
     font-family: 'Oswald', sans-serif;
+}
+.text-right{
+    text-align:right;
 }
 .no-margin{
     margin:0px;
@@ -163,6 +180,12 @@ textarea {
 }
 .relative{
     position:relative;
+}
+.absolute{
+    position:absolute;
+}
+.bottom{
+    bottom:0px;
 }
 .top{
     top:2em;
@@ -176,13 +199,18 @@ textarea {
 .full-height{
     height: 100%;
 }
+.full-width{
+    width:100%;
+}
 .row{
     margin:0;
 }
 .hidden {
     display: none !important;
 }
-
+.large-padding{
+    padding:10px 15px;
+}
 /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

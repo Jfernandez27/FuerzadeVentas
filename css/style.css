@@ -105,6 +105,20 @@ textarea {
 
 .navigation li {
   padding: 5px 10px;
+  transition: all 0.4s;
+}
+
+.navigation li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navigation li a {
+  color: white;
+  cursor: pointer;
+}
+
+.navigation li a:hover {
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -125,8 +139,16 @@ textarea {
   color: white;
 }
 
+.black-back {
+  background-color: #222;
+}
+
 .oswald {
   font-family: 'Oswald', sans-serif;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .no-margin {
@@ -139,6 +161,14 @@ textarea {
 
 .relative {
   position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.bottom {
+  bottom: 0px;
 }
 
 .top {
@@ -157,12 +187,20 @@ textarea {
   height: 100%;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .row {
   margin: 0;
 }
 
 .hidden {
   display: none !important;
+}
+
+.large-padding {
+  padding: 10px 15px;
 }
 
 /*

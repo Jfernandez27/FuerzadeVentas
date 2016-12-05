@@ -271,8 +271,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/fonts/glyphicons-halflings-regular.eot');
-  src: url('/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -2242,7 +2242,7 @@ tbody.collapse.in {
   margin-left: 2px;
   vertical-align: middle;
   border-top: 4px dashed;
-  border-top: 4px solid \9;
+  border-top: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
@@ -2359,7 +2359,7 @@ tbody.collapse.in {
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid \9;
+  border-bottom: 4px solid ;
   content: "";
 }
 .dropup .dropdown-menu,
@@ -3237,7 +3237,7 @@ button.close {
   border: 1px solid #ffffff;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #000 \9;
+  background-color: #000 ;
   background-color: rgba(0, 0, 0, 0);
 }
 .carousel-indicators .active {
